@@ -26,15 +26,17 @@ ul {
 }
 
 .header-link {
-  color: #2e2f42;
-  font-family: Roboto;
+  color: #434455;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.header-link:hover,
+.header-link:hover {
+  color: #404bbf;
+}
 .header-link:focus {
   color: #404bbf;
 }
@@ -52,7 +54,9 @@ a {
   letter-spacing: 0.02em;
 }
 
-.contacts-link:hover,
+.contacts-link:hover {
+  color: #404bbf;
+}
 .contacts-link:focus {
   color: #404bbf;
 }
@@ -106,17 +110,21 @@ a {
 
 /* Our Team section*/
 .team-job {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .team-title {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
+}
+.team-list {
+  background-color: #ffffff;
 }
 .team-name {
   font-family: 'Roboto', sans-serif;
