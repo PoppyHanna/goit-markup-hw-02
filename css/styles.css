@@ -1,0 +1,91 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Page header */
+
+.header-logo {
+  color: #2e2f42;
+}
+
+.header-logo .accent {
+  color: #4d5ae5;
+}
+
+.header-link {
+  color: #2e2f42;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
+a {
+  text-decoration: none;
+}
+.contacts-link {
+  color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+/* Unique page content  */
+.main-section {
+  background-color: #2e2f42;
+}
+.main-title {
+  color: #ffffff;
+}
+.main-button {
+  color: #fff;
+  border-radius: 4px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px;
+  cursor: pointer;
+}
+
+/* TODO Benefits section*/
+.benefits-text {
+  color: #434455;
+  font-size: 16px;
+}
+
+/* Our Team section*/
+.team-job {
+  background-color: #f4f4fd;
+}
+.persona-job {
+  color: #434455;
+}
+
+/* Our Portfolio section */
+.portfolio-text {
+  color: #434455;
+}
+
+/* Footer */
+
+.footer-logo {
+  color: #f4f4fd;
+  font-size: 18px;
+}
+.footer-logo .accent {
+  color: #4d5ae5;
+  font-size: 18px;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+}
+.footer {
+  background-color: #2e2f42;
+}
