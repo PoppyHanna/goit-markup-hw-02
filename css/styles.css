@@ -26,7 +26,7 @@ ul {
 }
 
 .header-link {
-  color: #434455;
+  color: #2e2f42;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -45,7 +45,7 @@ a {
   text-decoration: none;
 }
 .contacts-link {
-  color: #434455;
+  color: #2e2f42;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -53,13 +53,37 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.mail-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.mail-link:hover {
+  color: #404bbf;
+}
+.mail-link:focus {
+  color: #404bbf;
+}
+.tel-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.tel-link:hover {
+  color: #404bbf;
+}
+.tel-link:focus {
+  color: #404bbf;
+}
 
-.contacts-link:hover {
-  color: #404bbf;
-}
-.contacts-link:focus {
-  color: #404bbf;
-}
 /* Unique page content  */
 .main-section {
   background-color: #2e2f42;
@@ -84,9 +108,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.main-button:hover,
+.main-button:hover {
+  background-color: #404bbf;
+}
 .main-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* TODO Benefits section*/
